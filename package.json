@@ -1,0 +1,26 @@
+{
+  "name": "uni-notice-board",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudaisSarfraz/University-Digital-Notice-Board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SudaisSarfraz/University-Digital-Notice-Board/issues"
+  },
+  "homepage": "https://github.com/SudaisSarfraz/University-Digital-Notice-Board#readme",
+  "description": "",
+  "devDependencies": {
+    "htmlhint": "^1.8.0",
+    "parcel": "^2.16.3",
+    "stylelint": "^16.26.1",
+    "stylelint-config-standard": "^39.0.1"
+  }
+}
