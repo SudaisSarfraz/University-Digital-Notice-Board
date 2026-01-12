@@ -156,6 +156,59 @@ body {
     color: var(--secondary);
 }
 
+/* Events Section */
+.events-section {
+    padding: 40px 0;
+}
+
+.events-section h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    border-bottom: 2px solid var(--secondary);
+    display: inline-block;
+    padding-bottom: 5px;
+    color: var(--primary);
+}
+
+/* Event Cards Container */
+.event-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Individual Event Card */
+.event-card {
+    background: var(--white);
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: var(--shadow);
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+
+.event-card p {
+    font-size: 1rem;
+    color: var(--dark);
+    line-height: 1.5;
+}
+
+/* Event Dates */
+.event-card strong {
+    color: var(--secondary);
+}
+
 /* Footer */
 .main-footer {
     background: var(--dark);

@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University Digital Notice Board | Home</title>
+    <title>University Digital Notice Board | Events</title>
     <link rel="stylesheet" href="../style/styles.css">
+    <meta name="description" content="University Digital Notice Board | Upcoming events, announcements, and schedules.">
 </head>
 <body>
 
+    <!-- HEADER -->
     <header class="top-bar">
         <div class="container">
             <span>Official University Notice Portal</span>
@@ -15,6 +17,7 @@
         </div>
     </header>
 
+    <!-- HERO SECTION -->
     <section class="hero-header">
         <div class="container">
             <h1>CampusConnect</h1>
@@ -22,18 +25,65 @@
         </div>
     </section>
 
+    <!-- NAVIGATION -->
     <nav class="navbar">
         <div class="container">
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="notices.html">Academics</a></li>
                 <li><a href="exams.html">Exams</a></li>
                 <li><a href="admissions.html">Admissions</a></li>
-                <li><a href="events.html">Events</a></li>
+                <li><a href="events.html" class="active" aria-current="page">Events</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
+
+    <!-- UPCOMING EVENTS -->
+    <section class="events-section container">
+        <h2>Upcoming Events</h2>
+        <div class="event-cards">
+            <div class="event-card">
+                <h3>Orientation Week</h3>
+                <p><strong>Date:</strong> 15 - 20 Jan 2026</p>
+                <p>Welcome new students with campus tours, workshops, and meet-and-greets with faculty and seniors.</p>
+            </div>
+            <div class="event-card">
+                <h3>Science Fair</h3>
+                <p><strong>Date:</strong> 10 Feb 2026</p>
+                <p>Showcase your projects, experiments, and innovations in this annual science exhibition.</p>
+            </div>
+            <div class="event-card">
+                <h3>Spring Semester Registration</h3>
+                <p><strong>Date:</strong> 25 Jan 2026</p>
+                <p>Register for your courses online and complete enrollment for the spring semester.</p>
+            </div>
+            <div class="event-card">
+                <h3>Sports Day</h3>
+                <p><strong>Date:</strong> 5 Mar 2026</p>
+                <p>Participate or cheer for your department in the university sports competitions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAST EVENTS -->
+    <section class="events-section container">
+        <h2>Past Events</h2>
+        <div class="event-cards">
+            <div class="event-card">
+                <h3>Winter Workshop Series</h3>
+                <p><strong>Date:</strong> 1 - 10 Dec 2025</p>
+                <p>Technical workshops on AI, Robotics, and Web Development conducted by experts.</p>
+            </div>
+            <div class="event-card">
+                <h3>Annual Cultural Fest</h3>
+                <p><strong>Date:</strong> 20 Nov 2025</p>
+                <p>A celebration of music, drama, and art showcasing talent from all departments.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer class="main-footer">
         <div class="container">
             <p>&copy; 2026 University Digital Services. Built with GitHub Actions CI/CD.</p>
