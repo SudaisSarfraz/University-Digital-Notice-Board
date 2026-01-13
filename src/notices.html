@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University Digital Notice Board | Home</title>
     <link rel="stylesheet" href="../style/styles.css">
 </head>
+
 <body>
 
     <header class="top-bar">
@@ -25,7 +27,7 @@
     <nav class="navbar">
         <div class="container">
             <ul>
-                <li><a href="index.html" >Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="notices.html" class="active">Academics</a></li>
                 <li><a href="exams.html">Exams</a></li>
                 <li><a href="admissions.html">Admissions</a></li>
@@ -34,6 +36,60 @@
             </ul>
         </div>
     </nav>
+    <main class="container content-layout">
+        <section class="main-content">
+            <header class="section-header">
+                <h2>Academic Announcements</h2>
+                <p>Filter by Department: <strong>All Departments</strong></p>
+                <hr>
+            </header>
+
+            <div class="notice-entry">
+                <span class="date-badge">Jan 12, 2026</span>
+                <span class="category-tag">Urgent</span>
+                <h3>Revised Spring Semester Academic Calendar</h3>
+                <p>The Academic Council has approved the updated calendar. Key dates for mid-terms and project
+                    submissions have been shifted by one week.</p>
+                <a href="#" class="btn-text">Download PDF 📥</a>
+            </div>
+
+            <div class="notice-entry">
+                <span class="date-badge">Jan 10, 2026</span>
+                <span class="category-tag academic">Course Work</span>
+                <h3>Open Electives Registration - Final Call</h3>
+                <p>Students from the 3rd and 5th semesters must finalize their elective choices via the portal before
+                    Friday 5:00 PM.</p>
+                <a href="#" class="btn-text">Register Online &rarr;</a>
+            </div>
+
+            <div class="notice-entry">
+                <span class="date-badge">Jan 08, 2026</span>
+                <span class="category-tag scholarship">Scholarship</span>
+                <h3>Merit-Based Fee Waiver List Published</h3>
+                <p>The list of students eligible for the 2026 Merit Scholarship is now available at the Registrar's
+                    office and on the portal.</p>
+                <a href="#" class="btn-text">View List</a>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <div class="info-widget">
+                <h3>Quick Filters</h3>
+                <ul class="filter-list">
+                    <li><a href="#">Engineering</a></li>
+                    <li><a href="#">Computer Science</a></li>
+                    <li><a href="#">Business School</a></li>
+                    <li><a href="#">Social Sciences</a></li>
+                </ul>
+            </div>
+
+            <div class="info-widget dark">
+                <h3>Submit an Inquiry</h3>
+                <p>Questions regarding a specific notice? Contact the Academic Office.</p>
+                <a href="contact.html" class="btn-secondary">Contact Office</a>
+            </div>
+        </aside>
+    </main>
     <footer class="main-footer">
         <div class="container">
             <p>&copy; 2026 University Digital Services. Built with GitHub Actions CI/CD.</p>
@@ -41,4 +97,5 @@
     </footer>
 
 </body>
+
 </html>
