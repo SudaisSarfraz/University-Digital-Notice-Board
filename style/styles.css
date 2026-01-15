@@ -291,7 +291,6 @@ body {
   color: var(--dark);
   font-size: 0.95rem;
 }
-
 .filter-list a:hover {
   color: var(--primary);
 }
