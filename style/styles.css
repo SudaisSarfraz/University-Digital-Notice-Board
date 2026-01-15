@@ -302,7 +302,6 @@ body {
     gap: 20px;
     margin-top: 20px;
 }
-
 .form-group {
     display: flex;
     flex-direction: column;
@@ -361,3 +360,4 @@ body {
     border: 0;
     border-top: 1px solid #eee;
 }
+
