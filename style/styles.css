@@ -295,7 +295,6 @@ body {
 .filter-list a:hover {
   color: var(--primary);
 }
-
 /* Contact Form Styling */
 .contact-form {
     display: grid;
@@ -307,7 +306,6 @@ body {
     flex-direction: column;
     gap: 8px;
 }
-
 .form-group label {
     font-weight: 600;
     color: var(--primary);
