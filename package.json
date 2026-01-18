@@ -1,9 +1,11 @@
 {
   "name": "uni-notice-board",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/*.html --dist-dir dist --public-url ./ --no-cache",
+    "lint:html": "htmlhint \"src/*.html\"",
+    "lint:css": "stylelint \"style/*.css\""
   },
   "repository": {
     "type": "git",
